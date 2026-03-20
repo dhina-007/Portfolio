@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dhinagar S — Software developer. Portfolio, experience, projects, and contact.">
+    <title>Dhinagar S — Portfolio</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="Dhinagar S — Portfolio">
+    <meta property="og:description" content="Software developer · Java, Spring Boot, React, and full-stack delivery. Experience, projects, and contact.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/img/perfil.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dhinagar S — Portfolio">
+    <meta name="twitter:description" content="Software developer · Java, Spring Boot, React, and full-stack delivery.">
+    <meta name="twitter:image" content="assets/img/perfil.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <a href="#home" class="skip-link">Skip to content</a>
+
+    <header class="header" id="header">
+        <nav class="nav container" aria-label="Main">
+            <a href="#home" class="nav__logo">Dhinagar<span class="nav__logo-dot"> S</span></a>
+            <button type="button" class="nav__toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="nav__toggle-bar" aria-hidden="true"></span>
+                <span class="nav__toggle-bar" aria-hidden="true"></span>
+                <span class="nav__toggle-bar" aria-hidden="true"></span>
+            </button>
+            <div class="nav__backdrop" id="nav-backdrop" aria-hidden="true"></div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active">Home</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#experience" class="nav__link">Experience</a></li>
+                    <li><a href="#skills" class="nav__link">Skills</a></li>
+                    <li><a href="#projects" class="nav__link">Projects</a></li>
+                    <li><a href="#certifications" class="nav__link">Certifications</a></li>
+                    <li><a href="#education" class="nav__link">Education</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="hero__bg" aria-hidden="true">
+                <div class="hero__gradient"></div>
+            </div>
+            <div class="hero__content container">
+                <p class="hero__eyebrow">Software developer · Final-year Computer Science</p>
+                <h1 class="hero__title">
+                    <span class="hero__name">Hello, I'm Dhinagar</span>
+                </h1>
+                <p class="sr-only" id="hero-role-static">Primary roles: software developer; Java and Spring Boot engineer; full stack developer with React, Node, and REST APIs.</p>
+                <p class="hero__role" aria-hidden="true">
+                    <span id="typing-text" class="hero__typing"></span><span class="hero__cursor" aria-hidden="true">|</span>
+                </p>
+                <p class="hero__desc">
+                    I design and build reliable web applications — from REST APIs and Spring Boot services to React front ends. I care about clarity, maintainability, and delivering work that holds up in production.
+                </p>
+                <div class="hero__actions">
+                    <a href="assets/img/Resume.pdf" class="btn btn--primary" download>
+                        <i class="fa-solid fa-download" aria-hidden="true"></i> Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn--ghost">Let's talk</a>
+                    <a href="mailto:dhinarandhinagar70@gmail.com" class="btn btn--outline">Email me</a>
+                </div>
+                <div class="hero__social">
+                    <a href="https://www.linkedin.com/in/dhinagar-s-68521b24a" target="_blank" rel="noopener noreferrer" class="hero__social-link" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/dhina-007" target="_blank" rel="noopener noreferrer" class="hero__social-link" aria-label="GitHub">
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="hero__photo-wrap">
+                    <svg class="hero__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <defs>
+                            <linearGradient id="blobGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#2563eb"/>
+                                <stop offset="100%" stop-color="#6366f1"/>
+                            </linearGradient>
+                        </defs>
+                        <mask id="photoMask">
+                            <path fill="white" d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <path fill="url(#blobGrad)" opacity="0.2" d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        <image mask="url(#photoMask)" href="assets/img/perfil.png" x="40" y="50" width="400" height="400" preserveAspectRatio="xMidYMid slice" class="hero__blob-img"/>
+                    </svg>
+                </div>
+                <aside class="hero__panel" aria-label="Highlights">
+                    <div class="hero__panel-item">
+                        <span class="hero__panel-value">Backend</span>
+                        <span class="hero__panel-label">Java · Spring Boot · REST APIs</span>
+                    </div>
+                    <div class="hero__panel-item">
+                        <span class="hero__panel-value">Full stack</span>
+                        <span class="hero__panel-label">React · Node · MongoDB</span>
+                    </div>
+                    <div class="hero__panel-item">
+                        <span class="hero__panel-value">Focus</span>
+                        <span class="hero__panel-label">Quality, security, maintainability</span>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section about" id="about">
+            <div class="container">
+                <header class="section__head reveal" data-reveal>
+                    <span class="section__tag">01</span>
+                    <h2 class="section__title">About</h2>
+                    <p class="section__line" aria-hidden="true"></p>
+                </header>
+                <p class="section__subtitle reveal" data-reveal>Background, focus areas, and how I work with teams.</p>
+                <div class="about__grid">
+                    <div class="about__photo reveal" data-reveal>
+                        <img src="assets/img/about.jpg" alt="Dhinagar portrait" width="400" height="400" loading="lazy">
+                        <div class="about__photo-frame"></div>
+                    </div>
+                    <div class="about__text reveal" data-reveal>
+                        <h3 class="about__subtitle">What I bring</h3>
+                        <p>
+                            I'm <strong>Dhinagar S</strong>, completing my B.E. in Computer Science. At <strong>Infomind AI</strong> I work on Java and Spring Boot services, integrations, and APIs in a production-minded environment — not just tutorials.
+                        </p>
+                        <p>
+                            Earlier internships (MERN, full stack) taught me to own features end to end: auth, data modelling, deploys, and responsive UI. I'm looking for roles where code quality, documentation, and collaboration matter.
+                        </p>
+                        <p class="about__tools-label">Focus areas</p>
+                        <div class="about__tools">
+                            <span class="skill-tag skill-tag--sm">API design</span>
+                            <span class="skill-tag skill-tag--sm">Spring ecosystem</span>
+                            <span class="skill-tag skill-tag--sm">React</span>
+                            <span class="skill-tag skill-tag--sm">MongoDB</span>
+                        </div>
+                        <p class="about__see-skills"><a href="#skills" class="about__see-skills-link">View full skills &amp; tools →</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="section experience" id="experience">
+            <div class="container">
+                <header class="section__head reveal" data-reveal>
+                    <span class="section__tag">02</span>
+                    <h2 class="section__title">Experience</h2>
+                    <p class="section__line" aria-hidden="true"></p>
+                </header>
+                <p class="section__subtitle reveal" data-reveal>Roles where I've shipped production work and learned with teams.</p>
+                <div class="timeline">
+                    <div class="timeline__rail" aria-hidden="true"></div>
+                    <article class="timeline__card reveal" data-reveal>
+                        <div class="timeline__aside">
+                            <div class="timeline__dot"></div>
+                            <div class="timeline__logo">
+                                <img src="assets/img/infomind.jpeg" alt="Infomind AI" width="56" height="56" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="timeline__body card card--timeline">
+                            <header class="timeline__header">
+                                <div>
+                                    <h3 class="timeline__role">Java Backend Developer</h3>
+                                    <p class="timeline__company">Infomind AI</p>
+                                </div>
+                                <time class="timeline__date">Jan 2025 – Present</time>
+                            </header>
+                            <p class="timeline__summary">Enterprise integrations and API management — <span class="text-accent">scalability</span>, <span class="text-accent">security</span>, observability.</p>
+                            <ul class="timeline__list">
+                                <li>Built scalable services with <strong>Spring Boot</strong>, <strong>Liquibase</strong>, and <strong>REST APIs</strong>.</li>
+                                <li>Integrated <strong>ActiveMQ</strong> for async messaging.</li>
+                                <li>Automated configs, CI tasks, and <strong>PDF reports</strong> from datasets.</li>
+                                <li>Improved API performance and data-access hardening.</li>
+                                <li><strong>Job Tracker</strong> app (trainee) — Spring Boot + React.</li>
+                            </ul>
+                            <div class="timeline__tags">
+                                <span class="badge">Spring Boot</span>
+                                <span class="badge">Liquibase</span>
+                                <span class="badge">ActiveMQ</span>
+                                <span class="badge">REST</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="timeline__card reveal" data-reveal>
+                        <div class="timeline__aside">
+                            <div class="timeline__dot"></div>
+                            <div class="timeline__logo">
+                                <img src="assets/img/edunetfoundation_logo.jpeg" alt="Edunet Foundation" width="56" height="56" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="timeline__body card card--timeline">
+                            <header class="timeline__header">
+                                <div>
+                                    <h3 class="timeline__role">MERN Stack Developer Intern</h3>
+                                    <p class="timeline__company">Edunet Foundation</p>
+                                </div>
+                                <time class="timeline__date">Aug – Sep 2024</time>
+                            </header>
+                            <p class="timeline__summary">Personal Finance Manager — realtime features, secure <strong>JWT</strong> auth.</p>
+                            <ul class="timeline__list">
+                                <li>Full MERN app: <strong>React</strong> + <strong>Express/Node</strong>.</li>
+                                <li>JWT auth and role-protected routes.</li>
+                                <li><strong>MongoDB Atlas</strong> for cloud persistence.</li>
+                                <li>Responsive UI with Context API.</li>
+                            </ul>
+                            <div class="timeline__tags">
+                                <span class="badge">MERN</span>
+                                <span class="badge">JWT</span>
+                                <span class="badge">MongoDB</span>
+                                <span class="badge">React</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="timeline__card reveal" data-reveal>
+                        <div class="timeline__aside">
+                            <div class="timeline__dot"></div>
+                            <div class="timeline__logo">
+                                <img src="assets/img/kaashiv_infotech_logo.jpeg" alt="Kaashav Infotech" width="56" height="56" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="timeline__body card card--timeline">
+                            <header class="timeline__header">
+                                <div>
+                                    <h3 class="timeline__role">Full Stack Developer Intern</h3>
+                                    <p class="timeline__company">Kaashav Infotech</p>
+                                </div>
+                                <time class="timeline__date">Jun – Jul 2024</time>
+                            </header>
+                            <p class="timeline__summary">Production features across stack — fast iteration and deployment.</p>
+                            <ul class="timeline__list">
+                                <li>REST APIs with <strong>Node.js</strong> & <strong>Express</strong>; UIs with <strong>React</strong>.</li>
+                                <li>Optimized MongoDB queries for speed and cost.</li>
+                                <li>Cloud deploys and CI/CD participation.</li>
+                            </ul>
+                            <div class="timeline__tags">
+                                <span class="badge">React</span>
+                                <span class="badge">Node.js</span>
+                                <span class="badge">Express</span>
+                                <span class="badge">MongoDB</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section skills" id="skills">
+            <div class="container">
+                <header class="section__head reveal" data-reveal>
+                    <span class="section__tag">03</span>
+                    <h2 class="section__title">Skills</h2>
+                    <p class="section__line" aria-hidden="true"></p>
+                </header>
+                <p class="section__subtitle reveal" data-reveal>Grouped by how I use them day to day — not every logo is a claim to mastery.</p>
+                <p class="skills__intro reveal" data-reveal>Stacks and tooling from coursework, internships, and my current role.</p>
+
+                <div class="skills__group reveal" data-reveal>
+                    <h3 class="skills__group-title">Frontend</h3>
+                    <div class="skills__grid">
+                        <div class="skill-icon" title="HTML5"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+                        <div class="skill-icon" title="CSS3"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+                        <div class="skill-icon" title="JavaScript"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+                        <div class="skill-icon" title="React"><i class="devicon-react-original colored"></i><span>React</span></div>
+                        <div class="skill-icon" title="Angular"><i class="devicon-angularjs-plain colored"></i><span>Angular</span></div>
+                    </div>
+                </div>
+                <div class="skills__group reveal" data-reveal>
+                    <h3 class="skills__group-title">Backend &amp; languages</h3>
+                    <div class="skills__grid">
+                        <div class="skill-icon" title="Node.js"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
+                        <div class="skill-icon" title="Express"><i class="devicon-express-original colored"></i><span>Express</span></div>
+                        <div class="skill-icon" title="MongoDB"><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
+                        <div class="skill-icon" title="Java"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+                        <div class="skill-icon" title="Spring Boot"><i class="devicon-spring-plain colored"></i><span>Spring</span></div>
+                        <div class="skill-icon" title="Python"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+                        <div class="skill-icon" title="MySQL"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
+                    </div>
+                </div>
+                <div class="skills__group reveal" data-reveal>
+                    <h3 class="skills__group-title">Tools &amp; platform</h3>
+                    <div class="skills__grid">
+                        <div class="skill-icon" title="Git"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+                        <div class="skill-icon" title="GitHub"><i class="devicon-github-original colored"></i><span>GitHub</span></div>
+                        <div class="skill-icon" title="Linux"><i class="devicon-linux-plain colored"></i><span>Linux</span></div>
+                        <div class="skill-icon" title="VS Code"><i class="devicon-vscode-plain colored"></i><span>VS Code</span></div>
+                        <div class="skill-icon" title="Docker"><i class="devicon-docker-plain colored"></i><span>Docker</span></div>
+                    </div>
+                </div>
+                <div class="skills__tags reveal" data-reveal>
+                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag">JWT</span>
+                    <span class="skill-tag">Liquibase</span>
+                    <span class="skill-tag">ActiveMQ</span>
+                    <span class="skill-tag">React Native</span>
+                    <span class="skill-tag">Context API</span>
+                    <span class="skill-tag">Angular</span>
+                    <span class="skill-tag">CI/CD</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section projects" id="projects">
+            <div class="container">
+                <header class="section__head reveal" data-reveal>
+                    <span class="section__tag">04</span>
+                    <h2 class="section__title">Projects</h2>
+                    <p class="section__line" aria-hidden="true"></p>
+                </header>
+                <p class="section__subtitle reveal" data-reveal>Selected deployments and demos — each card summarizes scope and stack.</p>
+                <div class="projects__grid">
+                    <article class="project-card reveal" data-reveal>
+                        <div class="project-card__media">
+                            <img src="assets/img/work1.jpg" alt="Task Notebooks app screenshot" width="640" height="360" loading="lazy">
+                            <div class="project-card__overlay"></div>
+                        </div>
+                        <div class="project-card__body">
+                            <h3 class="project-card__title">Task Notebooks</h3>
+                            <p class="project-card__desc">Organize tasks and notes in a focused, deployable web experience.</p>
+                            <div class="project-card__stack">
+                                <span class="badge">React</span>
+                                <span class="badge">JavaScript</span>
+                                <span class="badge">Netlify</span>
+                            </div>
+                            <div class="project-card__actions">
+                                <a href="https://tasknotebooks.netlify.app/" class="btn btn--sm btn--primary" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Live
+                                </a>
+                                <a href="https://github.com/dhina-007" class="btn btn--sm btn--ghost" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card reveal" data-reveal>
+                        <div class="project-card__media">
+                            <img src="assets/img/work2.jpg" alt="AutoCAD analysis system screenshot" width="640" height="360" loading="lazy">
+                            <div class="project-card__overlay"></div>
+                        </div>
+                        <div class="project-card__body">
+                            <h3 class="project-card__title">AutoCAD Analysis System</h3>
+                            <p class="project-card__desc">Web app for analysis workflows, hosted on the cloud for demos.</p>
+                            <div class="project-card__stack">
+                                <span class="badge">Full Stack</span>
+                                <span class="badge">Render</span>
+                            </div>
+                            <div class="project-card__actions">
+                                <a href="https://autocad-analysis-system.onrender.com" class="btn btn--sm btn--primary" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Live
+                                </a>
+                                <a href="https://github.com/dhina-007" class="btn btn--sm btn--ghost" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card project-card--more reveal" data-reveal>
+                        <div class="project-card__body project-card__body--center">
+                            <i class="fa-brands fa-github project-card__more-icon" aria-hidden="true"></i>
+                            <h3 class="project-card__title">More on GitHub</h3>
+                            <p class="project-card__desc">Experiments, coursework, and work-in-progress live in my repositories.</p>
+                            <a href="https://github.com/dhina-007?tab=repositories" class="btn btn--primary" target="_blank" rel="noopener noreferrer">View repositories</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="section certifications" id="certifications">
+            <div class="container">
+                <header class="section__head reveal" data-reveal>
+                    <span class="section__tag">05</span>
+                    <h2 class="section__title">Certifications</h2>
+                    <p class="section__line" aria-hidden="true"></p>
+                </header>
+                <p class="section__subtitle reveal" data-reveal>Learning paths from vendors, institutes, and university partners.</p>
+                <div class="cert-grid">
+                    <div class="cert-card cert-card--tone-1 reveal" data-reveal>
+                        <span class="cert-card__type">Full stack</span>
+                        <i class="fa-solid fa-layer-group cert-card__icon" aria-hidden="true"></i>
+                        <h3>MERN Stack</h3><p>Edunet Foundation</p>
+                    </div>
+                    <div class="cert-card cert-card--tone-2 reveal" data-reveal>
+                        <span class="cert-card__type">Backend</span>
+                        <i class="fa-brands fa-java cert-card__icon" aria-hidden="true"></i>
+                        <h3>Java Spring Boot</h3><p>HCL Tech Career</p>
+                    </div>
+                    <div class="cert-card cert-card--tone-3 reveal" data-reveal>
+                        <span class="cert-card__type">Web</span>
+                        <i class="fa-solid fa-palette cert-card__icon" aria-hidden="true"></i>
+                        <h3>Web Designing</h3><p>Prompt InfoTech, Coimbatore</p>
+                    </div>
+                    <div class="cert-card cert-card--tone-1 reveal" data-reveal>
+                        <span class="cert-card__type">AI / ML</span>
+                        <i class="fa-solid fa-brain cert-card__icon" aria-hidden="true"></i>
+                        <h3>AI &amp; ML</h3><p>Prompt InfoTech, Coimbatore</p>
+                    </div>
+                    <div class="cert-card cert-card--tone-2 reveal" data-reveal>
+                        <span class="cert-card__type">AI / ML</span>
+                        <i class="fa-solid fa-microchip cert-card__icon" aria-hidden="true"></i>
+                        <h3>Deep Learning Fundamentals</h3><p>NVIDIA</p>
+                    </div>
+                    <div class="cert-card cert-card--tone-3 reveal" data-reveal>
+                        <span class="cert-card__type">Infrastructure</span>
+                        <i class="fa-solid fa-network-wired cert-card__icon" aria-hidden="true"></i>
+                        <h3>Networking</h3><p>Dynamic Networking Institute · Aug 2024</p>
+                    </div>
+                    <div class="cert-card cert-card--tone-1 reveal" data-reveal>
+                        <span class="cert-card__type">Cloud</span>
+                        <i class="fa-brands fa-aws cert-card__icon" aria-hidden="true"></i>
+                        <h3>AWS Academy ML Foundations</h3><p>AWS Academy</p>
+                    </div>
+                    <div class="cert-card cert-card--tone-2 reveal" data-reveal>
+                        <span class="cert-card__type">Data</span>
+                        <i class="fa-solid fa-chart-line cert-card__icon" aria-hidden="true"></i>
+                        <h3>Python for Data Science</h3><p>NPTEL</p>
+                    </div>
+                    <div class="cert-card cert-card--tone-3 reveal" data-reveal>
+                        <span class="cert-card__type">Languages</span>
+                        <i class="fa-solid fa-code cert-card__icon" aria-hidden="true"></i>
+                        <h3>Programming in Java</h3><p>NPTEL</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education timeline -->
+        <section class="section education" id="education">
+            <div class="container">
+                <header class="section__head reveal" data-reveal>
+                    <span class="section__tag">06</span>
+                    <h2 class="section__title">Education</h2>
+                    <p class="section__line" aria-hidden="true"></p>
+                </header>
+                <p class="section__subtitle reveal" data-reveal>Formal qualifications in chronological order.</p>
+                <div class="edu-timeline">
+                    <div class="edu-timeline__rail" aria-hidden="true"></div>
+                    <article class="edu-timeline__item reveal" data-reveal>
+                        <div class="edu-timeline__dot"></div>
+                        <div class="edu-timeline__card card">
+                            <time class="edu-timeline__year">2021 – 2026</time>
+                            <h3>B.E. Computer Science Engineering</h3>
+                            <p>Adhiparasakthi Engineering College, Anna University, Tamil Nadu</p>
+                            <p class="edu-timeline__meta">CGPA: 8.0</p>
+                        </div>
+                    </article>
+                    <article class="edu-timeline__item reveal" data-reveal>
+                        <div class="edu-timeline__dot"></div>
+                        <div class="edu-timeline__card card">
+                            <time class="edu-timeline__year">2021 – 2022</time>
+                            <h3>HSC (Higher Secondary)</h3>
+                            <p>Kingston Matriculation HSS, Vandavasi</p>
+                            <p class="edu-timeline__meta">71%</p>
+                        </div>
+                    </article>
+                    <article class="edu-timeline__item reveal" data-reveal>
+                        <div class="edu-timeline__dot"></div>
+                        <div class="edu-timeline__card card">
+                            <time class="edu-timeline__year">2019 – 2020</time>
+                            <h3>SSLC</h3>
+                            <p>Kingston Matriculation HSS, Vandavasi</p>
+                            <p class="edu-timeline__meta">87%</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <header class="section__head reveal" data-reveal>
+                    <span class="section__tag">07</span>
+                    <h2 class="section__title">Contact</h2>
+                    <p class="section__line" aria-hidden="true"></p>
+                </header>
+                <p class="section__subtitle reveal" data-reveal>Reach out for opportunities, collaborations, or questions.</p>
+                <div class="contact__grid">
+                    <div class="contact__aside reveal" data-reveal>
+                        <p class="contact__lead">Have an idea, role, or just want to say hi? Drop a message — I usually reply within a day.</p>
+                        <div class="contact__email-row">
+                            <a href="mailto:dhinarandhinagar70@gmail.com" class="contact__email">dhinarandhinagar70@gmail.com</a>
+                            <button type="button" class="btn btn--sm btn--outline" id="copy-email" data-email="dhinarandhinagar70@gmail.com" aria-label="Copy email address">
+                                <i class="fa-regular fa-copy" aria-hidden="true"></i> Copy
+                            </button>
+                        </div>
+                        <div class="contact__social">
+                            <a href="https://www.linkedin.com/in/dhinagar-s-68521b24a" target="_blank" rel="noopener noreferrer" class="contact__social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/dhina-007" target="_blank" rel="noopener noreferrer" class="contact__social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact__form card reveal" data-reveal action="https://formspree.io/f/xqaapveo" method="POST" novalidate>
+                        <div id="form-status" class="form-status" role="status" aria-live="polite" hidden></div>
+                        <label class="form-label" for="contact-name">Name</label>
+                        <input id="contact-name" type="text" name="name" class="form-input" placeholder="Your name" required autocomplete="name">
+                        <label class="form-label" for="contact-email">Email</label>
+                        <input id="contact-email" type="email" name="email" class="form-input" placeholder="you@example.com" required autocomplete="email">
+                        <label class="form-label" for="contact-message">Message</label>
+                        <textarea id="contact-message" name="message" class="form-input form-textarea" rows="5" placeholder="Your message..." required></textarea>
+                        <button type="submit" class="btn btn--primary btn--full" id="contact-submit">
+                            <span class="btn__label"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Send message</span>
+                            <span class="btn__loading" hidden><i class="fa-solid fa-circle-notch fa-spin" aria-hidden="true"></i> Sending…</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p class="footer__brand">Dhinagar S</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/dhinagar-s-68521b24a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/dhina-007" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:dhinarandhinagar70@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p class="footer__copy">&copy; <span id="year"></span> Dhinagar S. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden>Copied to clipboard</div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
